@@ -6,9 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="/javascript.svg" />
     <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@600&display=swap" rel="stylesheet">
   </head>
   <body class="bg-white w-max m-0 p-0">
     <div id="app" class = "h-screen w-screen">
+      <div class="absolute w-screen h-screen flex flex-col justify-center items-center font-geolica text-4xl leading-loose">
+        <h1>Welcome to Three.js GLSL Canvas</h1>
+        <p>To do some stuffs, change the shader in the ./shaders folder</p>
+      </div>
       <div id="canvas-container" class = "h-screen w-screens">
         <canvas></canvas>
       </div>

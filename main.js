@@ -20,6 +20,7 @@ const something = new THREE.Mesh(
     fragmentShader,
     side : THREE.DoubleSide,
     uniforms : {
+      
       color1 : { value : new THREE.Color( "orange" ) },
       color2 : { value : new THREE.Color( "yellow" ) }
     }
