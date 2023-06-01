@@ -11,10 +11,10 @@ const renderer = new THREE.WebGLRenderer({ antialias : true, canvas : canvas });
 renderer.setSize( WIDTH, HEIGHT );
 const scene = new THREE.Scene()
 const camera = new THREE.PerspectiveCamera( 75, WIDTH / HEIGHT, 0.1, 1000 );
-camera.position.z = 15;
+camera.position.z = 20;
 
 const something = new THREE.Mesh(
-  new THREE.PlaneGeometry( 20, 20 ),
+  new THREE.PlaneGeometry( WIDTH, HEIGHT ),
   new THREE.ShaderMaterial({
     vertexShader,
     fragmentShader,
